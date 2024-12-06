@@ -56,25 +56,20 @@ The **COOPER WORD** is a web-based tool designed to help users create, manage, a
 
 ## Installation
 
-To set up the project locally, follow these steps:
+Open Using Daytona
 
-1. **Clone the repository**:
-   `bash
-   git clone https://github.com/B-Mustafa/cooperword.git
-   cd event-management-app
-   `
+1. Install Daytona: Follow the Daytona installation guide.
 
-2. **Install dependencies**:
-   `bash
-   npm install
-   `
+2. Create the Workspace:
+daytona create https://github.com/B-Mustafa/cooperword-daytona.git 
 
-3. **Run the application**:
-   `bash
-   npm run dev
-   `
+3. To start the IDE:
+daytona code 
 
-4. **Access the application**: Open your browser and navigate to `http://localhost:3000`.
+4. Select Linux as the machine
+
+5. Start the Application:
+npm run dev
 
 ## Usage
 
