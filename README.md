@@ -1,4 +1,4 @@
-# NEXT.JS PROJECT
+# Sample Nextjs
 
 ![home](https://github.com/user-attachments/assets/dfb10eaf-c687-4743-a450-fbe28920373c)
 ![events](https://github.com/user-attachments/assets/ee6e26ef-700c-4e2b-8372-1b1fddbd7944)
