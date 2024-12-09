@@ -58,19 +58,23 @@ The **COOPER WORD** is a web-based tool designed to help users create, manage, a
 
 Open Using Daytona
 
-1. Install Daytona: Follow the Daytona installation guide.
+1. Install Daytona: Follow the [![Daytona](https://www.daytona.io/docs/installation/installation/)] installation guide.
 
 2. Create the Workspace:
+```
 daytona create https://github.com/B-Mustafa/cooperword-daytona.git 
-
+```
 3. To start the IDE:
+```
 daytona code 
+```
 
 4. Select Linux as the machine
 
 5. Start the Application:
+```
 npm run dev
-
+```
 ## Usage
 
 - **Navigating the Calendar**: Use the arrow buttons to switch between months.
