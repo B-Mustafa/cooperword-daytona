@@ -7,11 +7,11 @@
 ## Table of Contents
 
 - [COOPER WORD](#cooper-word)
+  - [Getting Started](#getting-started)   
   - [Table of Contents](#table-of-contents)
   - [Overview](#overview)
   - [Features](#features)
   - [Tech Stack](#tech-stack)
-  - [Installation](#installation)
   - [Usage](#usage)
   - [Contributing](#contributing)
   - [License](#license)
@@ -19,6 +19,30 @@
   - [How to Contribute](#how-to-contribute)
   - [Contributors](#contributors)
   - [Contact](#contact)
+
+## 🚀 Getting Started
+
+ ### Open Using Daytona
+ 
+ 1. **Install Daytona**: Follow the [Daytona installation guide](https://www.daytona.io/docs/installation/installation/).
+ 
+ 2. **Create the Workspace**:
+ 
+    ```bash
+    daytona create https://github.com/B-Mustafa/cooperword-daytona.git
+    ```
+ 3. To start the IDE:
+    ```
+    daytona code 
+    ```
+    
+ 4. Select Linux as the machine
+   
+ 5. **Start the Application**:
+    ```bash
+    npm run dev
+    ```
+
 
 ## Overview
 
@@ -54,27 +78,6 @@ The **COOPER WORD** is a web-based tool designed to help users create, manage, a
   - **ShadCn Hexta Ui**: A component library used in for Ui.
   - **Resend Email**: used for sending emails with reminder
 
-## Installation
-
-Open Using Daytona
-
-1. Install Daytona: Follow the [![Daytona](https://www.daytona.io/docs/installation/installation/)] installation guide.
-
-2. Create the Workspace:
-```
-daytona create https://github.com/B-Mustafa/cooperword-daytona.git 
-```
-3. To start the IDE:
-```
-daytona code 
-```
-
-4. Select Linux as the machine
-
-5. Start the Application:
-```
-npm run dev
-```
 ## Usage
 
 - **Navigating the Calendar**: Use the arrow buttons to switch between months.
