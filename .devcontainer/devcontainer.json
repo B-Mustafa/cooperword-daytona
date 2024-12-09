@@ -1,0 +1,25 @@
+{
+    "name": "Cooper Word Development Environment",
+    "build": {
+      "dockerfile": "../Dockerfile"
+    },
+    "forwardPorts": [
+      3000
+    ],
+    "customizations": {
+      "vscode": {
+        "settings": {
+          "javascript.enable": true,
+          "typescript.enable": true,
+          "editor.formatOnSave": true,
+          "editor.codeActionsOnSave.source.organizeImports": true
+        },
+        "extensions": [
+          "esbenp.prettier-vscode",
+          "dbaeumer.vscode-eslint",
+          "vscode.typescript-language-features"
+        ]
+      }
+    },
+    "postCreateCommand": "npm install"
+  }
