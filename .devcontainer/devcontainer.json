@@ -1,6 +1,7 @@
 {
   "name": "Cooper Word Development Environment",
-  "image":"mcr.microsoft.com/devcontainers/javascript-node:0-14",
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:0-14",
+  "remoteUser": "node",
   "forwardPorts": [3000],
   "customizations": {
     "vscode": {
@@ -18,5 +19,4 @@
     }
   },
   "postCreateCommand": "npm install",
-  "overrideCommand": false
 }
