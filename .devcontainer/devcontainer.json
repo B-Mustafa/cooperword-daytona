@@ -1,7 +1,7 @@
 {
     "name": "Cooper Word Development Environment",
     "build": {
-      "dockerfile": "../Dockerfile"
+      "dockerfile": "../dockerfile"
     },
     "forwardPorts": [
       3000
