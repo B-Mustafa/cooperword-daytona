@@ -1,6 +1,6 @@
 {
   "name": "Cooper Word Development Environment",
-  "image": "mcr.microsoft.com/devcontainers/javascript-node:0-14",
+  "image": "mcr.microsoft.com/devcontainers/javascript-node",
   "remoteUser": "node",
   "forwardPorts": [3000],
   "customizations": {
