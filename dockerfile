@@ -13,9 +13,6 @@ RUN npm install
 # Copy the entire project to the container
 COPY . .
 
-# Build the Next.js project
-RUN npm run build
-
 # Use a lightweight Node.js image for production
 FROM node:18-alpine AS runner
 
