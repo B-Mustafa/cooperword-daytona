@@ -1,8 +1,6 @@
 {
     "name": "Cooper Word Development Environment",
-    "build": {
-      "dockerfile": "../dockerfile"
-    },
+    "image": "mcr.microsoft.com/devcontainers/javascript-node",
     "forwardPorts": [
       3000
     ],
