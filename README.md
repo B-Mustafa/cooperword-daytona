@@ -37,8 +37,19 @@
     ```
     
  4. Select Linux as the machine
+ 
+ 5. Add .env.local file in root with:
+    ```
+    GROQ_API_KEY=""
+    CLERK_SECRET_KEY=""
+    COPILOTKIT_PUBLIC_KEY=""
+    NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=""
+    NEXT_PUBLIC_CLERK_SIGN_IN_URL=""
+    NEXT_PUBLIC_CLERK_SIGN_UP_URL=""
+    RESEND_API_KEY=""
+  ```
    
- 5. **Start the Application**:
+ 6. **Start the Application**:
     ```bash
     npm run dev
     ```
