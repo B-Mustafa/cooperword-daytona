@@ -47,7 +47,7 @@
     NEXT_PUBLIC_CLERK_SIGN_IN_URL=""
     NEXT_PUBLIC_CLERK_SIGN_UP_URL=""
     RESEND_API_KEY=""
-  ```
+    ```
    
  6. **Start the Application**:
     ```bash
