@@ -2,7 +2,9 @@
   "name": "Cooper Word Development Environment",
   "image": "mcr.microsoft.com/devcontainers/javascript-node",
   "remoteUser": "node",
-  "forwardPorts": [3000],
+  "forwardPorts": [
+    3000
+  ],
   "customizations": {
     "vscode": {
       "settings": {
@@ -18,5 +20,5 @@
       ]
     }
   },
-  "postCreateCommand": "npm install",
+  "postCreateCommand": "cp .env.example .env.local && npm install"
 }
