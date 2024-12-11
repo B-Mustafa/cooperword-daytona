@@ -12,12 +12,7 @@
         "typescript.enable": true,
         "editor.formatOnSave": true,
         "editor.codeActionsOnSave.source.organizeImports": true
-      },
-      "extensions": [
-        "esbenp.prettier-vscode",
-        "dbaeumer.vscode-eslint",
-        "vscode.typescript-language-features"
-      ]
+      }
     }
   },
   "postCreateCommand": "cp .env.example .env.local && npm install"
